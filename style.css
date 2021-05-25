@@ -1,0 +1,110 @@
+/*CSS du site 1*/
+body{
+    margin : auto;
+}
+h1{
+    font-size : 28px;
+    text-align: center;
+    font-family : "Lucida Sans Unicode" ,Arial, Helvetica, sans-serif;
+    
+}
+h2{
+    font-family : "Lucida Sans Unicode" ,Arial, Helvetica, sans-serif;
+    font-weight : normal;
+    font-size : 18px;
+}
+/*Entête*/
+header{
+    text-align: center;
+    background-color:rgb(57, 173, 63);
+}
+header h1{
+    font-size : 50px;
+    text-transform: uppercase;
+    font-weight : bold;
+    text-decoration: underline;
+    font-family: "Oswald", Arial ;
+    padding: 30px 80px 20px 0px;
+    padding-bottom : 80px;
+    margin: auto;
+    color : whitesmoke;
+}
+header img{
+    width : 260px;
+    height : 168px;
+    position : absolute; top : 0px; right : 100px;
+   
+}
+.creeper{
+    width : 260px;
+    height : 168px;
+    position : absolute; top : 0px; left : 100px;
+       
+    
+}
+
+/*Menu*/
+menu{
+    display : block;
+    margin-top:0px;
+    height:20%;
+	width:100%;
+}
+.menu ul{
+    background-color: rgb(68, 216, 75);
+    padding:10px 10px 10px 110px;
+    height:100%;
+    display: block;
+    margin-top:0px;
+    
+}
+.menu li{
+    display: inline-block;
+    width : 230px;
+	height :50px;
+	margin-top: 0px;
+    
+}
+.menu a{
+    font-size : 18px;
+    font-family: "Lucida Sans Unicode", Arial ;
+    color : whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    line-height:25px;
+}
+
+/*Partie 1 : les origines*/
+#origine{
+    margin-left : 200px;
+    margin-right : 200px;
+}
+.rouge{
+    color : red;
+}
+.minecon{
+    height : 150px;
+    width :170px;
+    float : right ;
+}
+
+/*Partie 2 : Les minerais*/
+#minerais{
+    margin-left : 200px;
+    margin-right : 200px;
+}
+#minerais li{
+    font-size : 20px;
+    font-weight: bold;
+    color : rgb(9, 9, 93);
+}
+#minerais .tab{
+    height : 260px;
+    padding-left : 255px;
+}
+#minerais .charbon{
+    float : right;
+}
+#minerais .fer{
+    float : left;
+}
